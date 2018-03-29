@@ -1,0 +1,17 @@
+base: &base
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+
+development:
+  <<: *base
+  database: rankme_development
+  username: rankme
+  password: rankme
+
+test:
+  <<: *base
+  database: rankme_test
+  username: rankme
+  password: rankme
