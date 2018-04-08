@@ -118,6 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack
+  activemodel
   activerecord
   dotenv
   grape

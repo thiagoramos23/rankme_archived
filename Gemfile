@@ -9,6 +9,7 @@ gem 'grape-swagger'
 gem 'grape-entity'
 gem 'activerecord'
 gem 'actionpack'
+gem 'activemodel'
 gem 'railties'
 gem 'dotenv'
 
